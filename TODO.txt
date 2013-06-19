@@ -1,0 +1,23 @@
+/* Programming Project */
+
+Still to complete:
+> Match class, match list, match allocations
+> Bar chart
+
+Modifications needed for existing:
+> In adding a referee, must have set of visiting localities, currently
+	can be NNN
+> Handle updating the main GUI when match allocations take place
+
+** > Check that headings/titles for everything are correct
+		and not just copy-paste errors.
+** > Make sure all text areas are set to non-editable
+
+Completing match allocations:
+> Create a match object using information taken from MatchFrame
+> Add match to MatchList (create a method in MatchList for this)
+> Each time a match is being allocated, need to sort the referee
+	list so that appropriate referees are chosen. Do this by
+	implementing a compareTo() method in RefereeClass, and order
+	by level and area
+> So, 
